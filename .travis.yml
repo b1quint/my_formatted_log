@@ -10,9 +10,7 @@ os:
 
 branches:
   only:
-
-install:
-- sudo apt-get update
+    - master
 
 script:
 - py.test -v
