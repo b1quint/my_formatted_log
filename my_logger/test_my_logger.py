@@ -83,7 +83,6 @@ class TestLogFormat(unittest.TestCase):
         self.assertLogFormat(message, logging.CRITICAL)
 
     def test_color(self):
-
         message = 'test color message'
         with self.assertLogs(logger=self.logger_name) as cm:
 
