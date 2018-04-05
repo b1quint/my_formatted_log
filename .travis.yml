@@ -1,0 +1,18 @@
+language: python
+
+python:
+- '3.5'
+- '3.6'
+
+os:
+- linux
+- osx
+
+branches:
+  only:
+
+install:
+- sudo apt-get update
+
+script:
+- py.test -v
